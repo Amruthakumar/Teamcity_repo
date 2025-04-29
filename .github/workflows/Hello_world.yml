@@ -1,0 +1,14 @@
+name: CI pipeline
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-lastest
+    
+    steps:
+      -uses: actions/checkout@v4
+      -name: run the foloowing one
+       run: echo"hello world"
