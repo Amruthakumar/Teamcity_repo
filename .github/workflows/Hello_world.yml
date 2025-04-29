@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-lastest
     
     steps:
-      -uses: actions/checkout@v4
-      -name: run the foloowing one
-       run: echo"hello world"
+      - uses: actions/checkout@v4
+      - name: run the foloowing on
+        run: echo hello world!
